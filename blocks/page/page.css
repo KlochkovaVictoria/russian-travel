@@ -2,6 +2,7 @@
     max-width: 1280px;
     margin: 0 auto;
     font-family: 'Inter','Helvetica Neue', Arial, sans-serif;
+    text-rendering: optimizeLegibility;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -21,3 +22,5 @@
         max-width: 320px;
     }
 }
+
+

@@ -2,6 +2,7 @@
     max-width: calc(100% - 344px);
     margin: 32px 0 64px;
     padding: 0 172px 0;
+    justify-content: center;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -10,7 +11,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px)  {
     .lead__subtitle  {
         max-width: calc(100% - 288px);
         padding: 0 144px 0;
@@ -23,7 +24,7 @@
         max-width: calc(100% - 128px);
         padding: 0 64px 0;
         margin: 32px 0 56px;
-        
+
     }
 }
 
@@ -36,3 +37,4 @@
         line-height: 20px;
     }
 }
+
