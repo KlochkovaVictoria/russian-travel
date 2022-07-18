@@ -1,24 +1,22 @@
-.places {
-  margin: 0 148px;
-  display: flex;
-  flex-wrap: wrap;
+.place__image {
+  max-width: 460px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .places {
-    margin: 0 48px;
+  .place__image {
+    max-width: 440px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .places {
-    margin: 0 24px;
+  .place__image {
+    max-width: 340px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .places {
-
-    margin: 0;
+  .place__image {
+    max-width: 320px;
   }
 }
+
