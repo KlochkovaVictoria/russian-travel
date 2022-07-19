@@ -1,10 +1,12 @@
 .header__lang-link {
+  margin-right: 0;
   font-size: 24px;
   line-height: 28px;
   font-weight: 400;
   text-align: right;
   color: #FFFFFF;;
-  margin-right: 18px;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition: opacity .2s linear;
@@ -17,11 +19,6 @@
   opacity: .8;
 }
 
-.header__lang-link:nth-of-type(2n) {
-  margin-right: 0;
-  -webkit-text-decoration-line: none;
-  text-decoration-line: none;
-}
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .header__lang-link {
