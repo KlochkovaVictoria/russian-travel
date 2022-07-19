@@ -1,8 +1,15 @@
 .cover__overlay {
   width: 100%;
-  background-color: rgba(42, 44, 47, 0.3);
+  background-color: rgba(42, 44, 47, .3);
   background-size: cover;
   position: relative;
   text-decoration-line: none;
   z-index: 1;
+  transition: background-color .5s linear;
 }
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, .8);
+}
+
+
