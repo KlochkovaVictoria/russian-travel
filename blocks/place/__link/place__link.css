@@ -3,10 +3,13 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   color: #FFFFFF;
   opacity: 1;
-  transition: opacity .5s linear;
+  transition: opacity .2s linear;
 }
 
 .place__link:hover {

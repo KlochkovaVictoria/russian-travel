@@ -1,9 +1,11 @@
 .place__website {
+  -ms-flex-item-align: end;
+  -ms-grid-row-align: end;
   align-self: end;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .place__website  {
+  .place__website {
     margin: 0 16px;
   }
 }

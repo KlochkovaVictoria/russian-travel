@@ -1,11 +1,16 @@
 .place__title {
   margin: 0;
   padding: 0;
+  max-width: -webkit-min-content;
+  max-width: -moz-min-content;
   max-width: min-content;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
   color: #FFFFFF;
 }
 

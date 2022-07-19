@@ -1,9 +1,11 @@
 .place__main-content {
-  align-self: start;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
   color: #FFFFFF;
 }
 

@@ -1,40 +1,39 @@
 .lead__subtitle {
-    max-width: calc(100% - 344px);
-    margin: 32px 0 64px;
-    padding: 0 172px 0;
-    justify-content: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-    color: #FFFFFF;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 0 64px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #FFFFFF;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px)  {
-    .lead__subtitle  {
-        max-width: calc(100% - 288px);
-        padding: 0 144px 0;
-        margin: 32px 0 56px;
-    }
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__subtitle {
+    max-width: 640px;
+    padding: 32px 0 56px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .lead__subtitle  {
-        max-width: calc(100% - 128px);
-        padding: 0 64px 0;
-        margin: 32px 0 56px;
-
-    }
+  .lead__subtitle {
+    max-width: 640px;
+    padding: 32px 0 56px;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .lead__subtitle  {
-        max-width: calc(100% - 32px);
-        padding: 0 16px 0;
-        margin: 16px 0 40px;
-        font-size: 16px;
-        line-height: 20px;
-    }
+  .lead__subtitle {
+    max-width: 288px;
+    padding: 16px 0 40px;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
-
