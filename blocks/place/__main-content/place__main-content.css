@@ -1,24 +1,11 @@
 .place__main-content {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 163%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  color: #FFFFFF;
+  margin: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .place__main-content {
-    font-size: 16px;
-  }
-}
 
 @media screen and (min-width: 320px) and (max-width: 767px){
   .place__main-content {
     margin: 0 16px;
-    font-size: 16px;
   }
 }
 
