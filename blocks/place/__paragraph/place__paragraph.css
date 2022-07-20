@@ -10,7 +10,7 @@
   margin: 0 0 26px;
 }
 
-.place__paragraph:last-of-type {
+.place__paragraph:last-child {
   margin: 0;
 }
 
